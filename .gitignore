@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# ---- Virtualenv ----
+.env
+.env.test
+.venv/
+venv/
+ENV/
+
+# ---- Alembic ----
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# ---- Logs & cache ----
+*.log
+*.pid
+*.gz
+*.swp
+.cache/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+
+# ---- IDEs & Editor configs ----
+.vscode/
+.idea/
+
+# ---- Docker ----
+*.pid
+*.seed
+*.bak
+
+# ---- Test / build ----
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ---- Env variables ----
+.env.local
+.env.*.local
+
+# ---- Misc ----
+*.bak
+.DS_Store
+Thumbs.db
